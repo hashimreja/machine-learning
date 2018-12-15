@@ -25,9 +25,9 @@ from sklearn.linear_model import LinearRegression
 regressor = LinearRegression()
 regressor.fit(X_train,y_train)
 y_pred = regressor.predict(X_test)
-
+#backward elimination method using ordinary least squares
 import statsmodels.formula.api as sm
-
+#adding constant coloumn of ones to support the constant in the formula 
 X = np.append(arr=np.ones((50,1)).astype(int),values = X,axis =1)
 
 X_optimal = X[:,[0,1,2,3,4,5]]
