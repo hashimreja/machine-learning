@@ -1,2 +1,2 @@
 # machine-learning
-all machine learning algorithms 
+Hello this is syed hashim reja here iam going to share all my machine learning algorithms 
